@@ -1,0 +1,41 @@
+body{
+    background: url(./brown.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper{
+    background: url(./brown.png);
+    margin: 0px auto;
+    max-width:600px;
+    margin-top: 5rem;
+    padding: 2rem;
+    box-shadow: 5px 10px #888888;
+    border-color:white;
+}
+
+#para{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#number{
+    color: #008000;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    display: flex;
+    color: white;
+    width: 10.6rem;
+    height: 2.6rem;
+    margin-left: 3rem;
+    background-color:#0078ba;
+    border-radius: 5px;
+    text-align: center;
+}
